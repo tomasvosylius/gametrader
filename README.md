@@ -1,6 +1,7 @@
 # gametrader
 My university research & development project from the 1st year.
 
+
 ## Design
 This web app is built using PHP programming language in the back end together with MySQL for data management.
 The front end is done with plain CSS and HTML, only borrowing icons from bootstrap and fonts from GoogleFonts.
@@ -22,7 +23,6 @@ This way performance is increased by not initializing new connections each time 
 
 ### Ideas for the future
 
-- improved security
 - more options on sorting category views (alphabetically or date) 
 - comments on item listings 
 - built-in private messages for users 
@@ -30,4 +30,9 @@ This way performance is increased by not initializing new connections each time 
 - profile details editing 
 - email activation when registering 
 - 2FA implementation 
-- Admin control panel ●	etc. 
+- Admin control panel
+
+### Side-notes
+Application lacks security and input sanitization in some places.
+
+
