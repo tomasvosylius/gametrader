@@ -1,0 +1,24 @@
+.single-item {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 1em;
+}
+
+.single-item-img > img {
+    padding: 0.5rem;
+    border: var(--fc-hr) 1px solid;
+    width: 100%;
+}
+
+.single-item-details li {
+    letter-spacing: 0;
+}
+
+.single-item-details {
+    list-style: none;
+    font-size: 1rem;
+}
+
+a.delete-item {
+    color: rgba(230, 0, 0, 1);
+}

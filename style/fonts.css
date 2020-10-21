@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:400,700&family=Nunito+Sans&display=swap');
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+p {
+	color: var(--fc-grey);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+    line-height: 2.25rem;
+    letter-spacing: .05rem;
+    color: var(--fc-dark);
+}
+
+h1 {
+	font-size: 3rem;
+	line-height: 3.5rem;
+}
+h2 {
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+h3 {
+	font-size: 2rem;
+}
+h4 {
+	font-size: 1.75rem;
+}
+h4 {
+	font-size: 1.5rem;
+}
+h4 {
+	font-size: 1.25rem;
+}
+
+
+small {
+    font-size: 0.75rem;
+    color: var(--fc-light);
+}

@@ -1,0 +1,77 @@
+header#site-head {
+	width: 100%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-between;
+    padding-bottom: 0.35rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--fc-hr);
+}
+
+a.logo-link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: var(--fc-dark);
+    letter-spacing: 0.05rem;
+	display: inline-flex;
+	align-items: center;
+}
+a.logo-link:hover {
+    text-decoration: none;
+}
+
+a.logo-link img {
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+a.logo-link:hover img {
+    filter: invert(100%) sepia(24%) saturate(6642%) hue-rotate(318deg) brightness(90%) contrast(93%);
+}
+
+ul.profile-quicklinks {
+	display: inline-flex;
+	align-items: center;
+}
+ul.profile-quicklinks li:not(:last-child) {
+    margin-right: 0.35rem;
+}
+
+ul.profile-quicklinks li {
+	display: inline-flex;
+	align-items: center;
+}
+
+ul.profile-quicklinks li > * {
+	padding: 0 0.125em 0 0.125rem;
+}
+
+
+ul.profile-quicklinks li a {
+    color: var(--fc-light);
+    font-size: 0.75rem;
+}
+
+
+a.add-game:focus {
+    outline: 0;
+}
+a.add-game:hover {
+    cursor: pointer;
+    background: rgb(132, 226, 77);
+    text-decoration: none;
+}
+a.add-game {
+    transition: background 0.15s;
+    margin-left: 0.5rem;
+    display: inline-flex;
+    align-items: center;
+
+    border: none;
+    background: #76C348;
+}
+a.add-game p {
+    color: white !important;
+    padding-right: 5px;
+}

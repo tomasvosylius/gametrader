@@ -1,0 +1,52 @@
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-group input[type=text],[type=password],[type=email] {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.input-group input:not(:last-child) {
+    margin-top: 0.5rem;
+}
+
+.input-group input:focus,
+.input-group button:focus {
+    outline: 0;
+}
+
+.input-item {
+    display: inline-flex;
+    align-items: center;
+}
+.input-item:not(:first-child) {
+    margin-top: 1em;
+}
+
+.input-group label {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 0.5rem;
+}
+
+.input-item img {
+    margin-right: 0.15rem;
+}
+
+.input-group button {
+    transition: background 0.15s;
+    color: white;
+    border: none;
+    background-color: #76C348;
+    padding: 10px;
+}
+
+.input-group button:hover {
+    cursor: pointer;
+    background: rgb(132, 226, 77);
+    outline: 0;
+}

@@ -1,0 +1,15 @@
+footer#site-footer {
+	width: 100%;
+	display: inline-flex;
+	align-items: flex-start;
+	justify-content: space-between;
+    padding: 1.0rem 0 1.0rem;
+    margin-top: 2rem;
+    border-top: 1px solid var(--fc-hr);
+}
+footer a {
+    color: var(--fc-light);
+}
+footer a:hover {
+    color: var(--fc-light);
+}
